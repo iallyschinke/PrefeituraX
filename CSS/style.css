@@ -17,7 +17,6 @@ body {
 }
 
 /* Header */
-
 header {
   background-color: var(--azul);
   color: var(--cinza);
@@ -41,7 +40,6 @@ header {
 }
 
 /* BANNER */
-
 .banner {
   position: relative;
 }
@@ -75,4 +73,51 @@ header {
   background-color: white;
   padding: 1rem;
   border-radius: 8px;
+}
+
+/* FORMULÁRIOS */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: white;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form label {
+  margin-top: 1rem;
+}
+
+.form input,
+.form button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.form button {
+  cursor: pointer;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: var(--azul);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
 }
